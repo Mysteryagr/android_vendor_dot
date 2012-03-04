@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Fix Google dialer
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+    vendor/dot/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
 
 # Camera Effects
 PRODUCT_COPY_FILES +=  \
@@ -41,6 +41,12 @@ PRODUCT_COPY_FILES +=  \
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
     vendor/dot/prebuilt/common/etc/mkshrc:system/etc/mkshrc
+
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/dot/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/dot/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/dot/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh
 
 # Packages
 include vendor/dot/config/packages.mk
