@@ -32,3 +32,6 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 include vendor/dot/config/packages.mk
+
+# Branding
+include vendor/dot/config/branding.mk
