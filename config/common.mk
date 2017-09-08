@@ -37,3 +37,6 @@ include vendor/dot/config/packages.mk
 
 # Branding
 include vendor/dot/config/branding.mk
+
+# Overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/dot/overlay/common
