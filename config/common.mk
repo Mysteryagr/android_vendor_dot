@@ -29,10 +29,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/dot/prebuilt/common/etc/init.local.rc:root/init.custom.rc
 
-# Fix Google dialer
-PRODUCT_COPY_FILES += \
-    vendor/dot/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
-
 # Camera Effects
 PRODUCT_COPY_FILES +=  \
     vendor/dot/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
