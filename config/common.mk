@@ -35,8 +35,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera Effects
 PRODUCT_COPY_FILES +=  \
-    vendor/aosp/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/aosp/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/dot/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/dot/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
